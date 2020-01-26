@@ -145,7 +145,7 @@ img.about-photo {
  
  
 /****portfolio***/
-.image-port{
+.image-port{  
     width: 270px;
     height: 200px;
 }
@@ -156,17 +156,20 @@ img.about-photo {
     position: relative;
     width: 270px;
     height: 200px;
-    transition: transform .2 ease-out;
 }
  
 .portfolio-item:nth-child(even){
     margin-left: 22px;
+    margin-right: 3.5px;
+
 }
  
 .item-name{
     position: relative;
-    top: -35px;
+    top: -75px;
+    height: 16%;
     text-align: center;
+    padding: 7px 0 0 0;
     background-color: #4aaaa5;
     padding: -1em;
     color: #ffffff;
@@ -178,6 +181,7 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
+    top: 550px;
     width: 100%;
     padding: 3em;
     text-align: center;

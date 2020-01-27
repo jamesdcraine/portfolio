@@ -116,7 +116,7 @@ header .container{
  
 .main{
     display: inline-block;
-    width: 870px;
+    width: 700px;
     margin: 70px 0;
     padding: 40px;
     background-color: #ffffff;
@@ -148,7 +148,7 @@ img.about-photo {
     position: relative;
     background-color: white;
     display: inline-block;
-    width: 860px;
+    width: 693px;
     height: 160px;
     margin: 3px 3px 3px 3px;
     padding: 40px;
@@ -160,7 +160,7 @@ img.about-photo {
     background-color: #4aaaa5;
     border: 1px solid #dddddd;
     height: 250px;
-    width: 950px;
+    width: 780px;
     text-align: center; 
 }
   

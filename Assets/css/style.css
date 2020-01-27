@@ -116,7 +116,7 @@ header .container{
  
 .main{
     display: inline-block;
-    width: 570px;
+    width: 870px;
     margin: 70px 0;
     padding: 40px;
     background-color: #ffffff;
@@ -148,8 +148,8 @@ img.about-photo {
     position: relative;
     background-color: white;
     display: inline-block;
-    width: 555px;
-    height: 110px;
+    width: 860px;
+    height: 160px;
     margin: 3px 3px 3px 3px;
     padding: 40px;
     border: 1px solid #dddddd;
@@ -159,8 +159,8 @@ img.about-photo {
 .inforoot {
     background-color: #4aaaa5;
     border: 1px solid #dddddd;
-    height: 200px;
-    width: 645px;
+    height: 250px;
+    width: 950px;
     text-align: center; 
 }
   
@@ -176,11 +176,12 @@ img.about-photo {
     position: relative;
     width: 230px;
     height: 160px;
+    left: 55px;
 }
  
 .portfolio-item:nth-child(even){
-    margin-left: 31px;
-    margin-right: 32px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
  
 .item-name{

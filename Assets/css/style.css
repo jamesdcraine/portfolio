@@ -116,9 +116,9 @@ header .container{
  
 .main{
     display: inline-block;
-    width: 700px;
-    margin: 70px 0;
-    padding: 40px;
+    width: 600px;
+    margin: 70px 0 0 70px;
+    padding: 40px; 
     background-color: #ffffff;
     border: 1px solid #dddddd;
 }
@@ -148,20 +148,23 @@ img.about-photo {
     position: relative;
     background-color: white;
     display: inline-block;
-    width: 693px;
+    width: 592px;
     height: 160px;
     margin: 3px 3px 3px 3px;
     padding: 40px;
     border: 1px solid #dddddd;
     color: black;    
+    line-height: 23px;
+    
 }
 
 .inforoot {
     background-color: #4aaaa5;
     border: 1px solid #dddddd;
-    height: 250px;
-    width: 780px;
+    height: 248px;
+    width: 680px;
     text-align: center; 
+    margin: 70px 0 0 70px;
 }
   
 /****portfolio***/

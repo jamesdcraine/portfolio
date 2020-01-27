@@ -142,6 +142,27 @@ img.about-photo {
     width: 200px;
     height: 200px;
 }
+
+.info {
+    background-color: white;
+    display: inline-block;
+    width: 546px;
+    margin: 3px 3px 3px 3px;
+    padding: 40px;
+    border: 1px solid #dddddd;
+    color: black;
+    
+}
+
+.inforoot {
+    background-color: #4aaaa5;
+    border: 1px solid #dddddd;
+    width: 640px;
+    padding: 3px;
+    text-align: center;
+    margin: 0px 0px 40px 0px;
+}
+
  
  
 /****portfolio***/

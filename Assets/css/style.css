@@ -202,9 +202,9 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    top: 620px;
     width: 100%;
     padding: 4px;
+    max-height: 20px;
     text-align: center;
     font-size: 0.8em;
     color: #cccccc;

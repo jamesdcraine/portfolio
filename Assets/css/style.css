@@ -3,6 +3,7 @@ html{
 }
  
 html, body{
+    justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     background: url("../images/trees.png");
@@ -152,8 +153,7 @@ img.about-photo {
     margin: 3px 3px 3px 3px;
     padding: 40px;
     border: 1px solid #dddddd;
-    color: black;
-    
+    color: black;    
 }
 
 .inforoot {
@@ -161,8 +161,7 @@ img.about-photo {
     border: 1px solid #dddddd;
     height: 200px;
     width: 645px;
-    text-align: center;
- 
+    text-align: center; 
 }
   
 /****portfolio***/
@@ -182,7 +181,6 @@ img.about-photo {
 .portfolio-item:nth-child(even){
     margin-left: 31px;
     margin-right: 32px;
-
 }
  
 .item-name{

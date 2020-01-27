@@ -144,9 +144,11 @@ img.about-photo {
 }
 
 .info {
+    position: relative;
     background-color: white;
     display: inline-block;
-    width: 546px;
+    width: 555px;
+    height: 110px;
     margin: 3px 3px 3px 3px;
     padding: 40px;
     border: 1px solid #dddddd;
@@ -157,14 +159,12 @@ img.about-photo {
 .inforoot {
     background-color: #4aaaa5;
     border: 1px solid #dddddd;
-    width: 640px;
-    padding: 3px;
+    height: 200px;
+    width: 645px;
     text-align: center;
-    margin: 0px 0px 40px 0px;
+ 
 }
-
- 
- 
+  
 /****portfolio***/
 .image-port{  
     width: 270px;
@@ -202,9 +202,9 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    top: 550px;
+    top: 620px;
     width: 100%;
-    padding: 3em;
+    padding: 4px;
     text-align: center;
     font-size: 0.8em;
     color: #cccccc;

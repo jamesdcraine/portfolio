@@ -12,7 +12,7 @@ html, body{
 }
  
 h1, h2, h3, h4, h5, h6{
-    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+
     color: #4aaaa5;
 }
  
@@ -22,10 +22,12 @@ a{
  
 h1{
     font-size: 2em;
+    font-family: 'Special Elite', cursive;
 }
  
 h2{
     font-size: 1em;
+    font-family: 'Special Elite', cursive;
 }
  
 /***layout***/
@@ -52,8 +54,9 @@ header .container{
 }
  
 .name {
-    width: 50%;
-}
+    width: 25%;
+    text-align: center;
+   }
  
 .logo{
     display: inline-block;
@@ -65,10 +68,11 @@ header .container{
 }
  
 .nav{
-    width: 49%;
+    width: 69%;
     text-align: right;
     color: #777777;
     font-weight: bolder;
+    font-family: 'Abril Fatface', cursive;
    
 }
  
@@ -210,10 +214,11 @@ footer {
     padding: 4px;
     max-height: 20px;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 13px;
     color: #cccccc;
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
+    font-family: 'Ruge Boogie', cursive;;
 }
  
 /***contact***/

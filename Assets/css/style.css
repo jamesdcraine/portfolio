@@ -214,6 +214,11 @@ img.about-photo {
     text-decoration: underline;
     font-size: 20px;
     transition: .3s;
+}
+
+.contact-form {
+    text-align: center;
+}
 
 footer {
     position: fixed;

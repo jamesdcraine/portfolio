@@ -70,8 +70,7 @@ header .container{
 .nav{
     width: 69%;
     text-align: right;
-    color: #777777;
-    font-weight: bolder;
+    color: #777777;  
     font-family: 'Abril Fatface', cursive;
    
 }
@@ -175,7 +174,6 @@ img.about-photo {
     height: 160px;
 }
  
- 
 .portfolio-item{
     display: inline-block;
     position: relative;
@@ -183,8 +181,6 @@ img.about-photo {
     height: 160px;
     left: 55px;
 }
-
-
  
 .portfolio-item:nth-child(even){
     margin-left: 10px;
@@ -193,19 +189,32 @@ img.about-photo {
  
 .item-name{
     position: relative;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 21px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 19px;
+    font-weight: lighter;
     top: -60px;
-    height: 15%;
+    height: 17%;
     text-align: center;
     padding: 0px 0 0 0;
-    background-color: #4aaaa5;
-    padding: -1em;
-    color: #ffffff;
+    background-color: rgb(34, 207, 34);
+    padding: 1px;
+    color: blue;
     z-index: 900;
 }
- 
- 
+
+.item-name:hover {
+    color: white;
+    text-decoration: underline;
+    font-size: 18px;
+    transition: .3s;
+      }
+
+.contact-item:hover {
+    color: blue;  
+    text-decoration: underline;
+    font-size: 20px;
+    transition: .3s;
+
 footer {
     position: fixed;
     left: 0;
@@ -218,7 +227,7 @@ footer {
     color: #cccccc;
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
-    font-family: 'Ruge Boogie', cursive;;
+    font-family: 'Lobster', cursive;
 }
  
 /***contact***/

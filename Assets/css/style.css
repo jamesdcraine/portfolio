@@ -54,13 +54,14 @@ header .container{
 }
  
 .name {
-    width: 25%;
+    width: 30%;
     text-align: center;
    }
  
 .logo{
     display: inline-block;
     font-weight: bolder;
+    font-size: 41px;
     background-color: #4aaaa5;
     color: #ffffff;
     padding: 3px;
@@ -70,6 +71,7 @@ header .container{
 .nav{
     width: 69%;
     text-align: right;
+    font-size: 25px;
     color: #777777;  
     font-family: 'Abril Fatface', cursive;
    
@@ -133,7 +135,7 @@ header .container{
 }
  
 .main p {
-    font-size: 14px;
+    font-size: 17px;
     line-height: 1.75em;
     margin-bottom: 2em;
 }
@@ -141,8 +143,8 @@ header .container{
 img.about-photo {
     float: left;
     padding: 0 1em 1em 0;
-    width: 160px;
-    height: 160px;
+    width: 180px;
+    height: 180px;
 }
 
 .info {
@@ -155,6 +157,7 @@ img.about-photo {
     padding: 40px;
     border: 1px solid #dddddd;
     color: black;    
+    font-size: 20px;
     line-height: 23px;
     
 }
@@ -163,7 +166,7 @@ img.about-photo {
     background-color: #4aaaa5;
     border: 1px solid #dddddd;
     height: 248px;
-    width: 803px;
+    width: 802px;
     text-align: center; 
     margin: 70px 0 0 70px;
 }
@@ -183,8 +186,8 @@ img.about-photo {
 }
  
 .portfolio-item:nth-child(even){
-    margin-left: 10px;
-    margin-right: 5px;
+    margin-left: 0px;
+    margin-right: 30px;
 }
  
 .item-name{
@@ -197,6 +200,7 @@ img.about-photo {
     text-align: center;
     padding: 0px 0 0 0;
     background-color: rgb(34, 207, 34);
+    border: 1px black solid;
     padding: 1px;
     color: blue;
     z-index: 900;
@@ -204,17 +208,16 @@ img.about-photo {
 
 .item-name:hover {
     color: white;
-    text-decoration: underline;
-    font-size: 18px;
+    text-decoration: underline;    
     transition: .3s;
       }
 
 .contact-item:hover {
     color: blue;  
     text-decoration: underline;
-    font-size: 20px;
+    font-size: 23px;
     transition: .3s;
-}
+    }
 
 .contact-form {
     text-align: center;

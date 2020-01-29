@@ -54,7 +54,7 @@ header .container{
 }
  
 .name {
-    width: 30%;
+    width: 35%;
     text-align: center;
    }
  
@@ -64,12 +64,14 @@ header .container{
     font-size: 41px;
     background-color: #4aaaa5;
     color: #ffffff;
-    padding: 3px;
-    width: auto;
+    padding: 20px 0 0 0;
+    width: 400px;
+    height: 55px;
+    border-radius: 10px;
 }
  
 .nav{
-    width: 69%;
+    width: 60%;
     text-align: right;
     font-size: 25px;
     color: #777777;  
@@ -95,6 +97,7 @@ header .container{
     background: #4aaaa5;
     padding: 5px;
     transition: .5s;
+    border-radius: 10px;
 }
  
 .nav ul li a.active{
@@ -151,21 +154,20 @@ img.about-photo {
     position: relative;
     background-color: white;
     display: inline-block;
-    width: 712px;
-    height: 160px;
+    width: 794px;
+    height: 200px;
     margin: 3px 3px 3px 3px;
-    padding: 40px;
     border: 1px solid #dddddd;
     color: black;    
     font-size: 20px;
-    line-height: 23px;
+    line-height: 22px;
     
 }
 
 .inforoot {
     background-color: #4aaaa5;
     border: 1px solid #dddddd;
-    height: 248px;
+    height: 208px;
     width: 802px;
     text-align: center; 
     margin: 70px 0 0 70px;

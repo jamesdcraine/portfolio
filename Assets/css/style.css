@@ -118,6 +118,7 @@ header .container{
     width: 960px;
     clear: both; 
     margin: 0 auto 6em auto;
+    opacity: 0.75;
 }
  
 .main{
@@ -126,7 +127,7 @@ header .container{
     margin: 70px 0 0 70px;
     padding: 100px; 
     background-color: #ffffff;
-    border: 1px solid #dddddd;
+    border: 1px solid #dddddd;   
 }
  
 .main h2 {
@@ -135,13 +136,13 @@ header .container{
     padding-bottom: 1em;
     margin-bottom: 0.8em;
     border-bottom: 2px solid #dddddd;
-}
+   }
  
 .main p {
     font-size: 17px;
     line-height: 1.75em;
     margin-bottom: 2em;
-}
+        }
  
 img.about-photo {
     float: left;
@@ -185,12 +186,14 @@ img.about-photo {
     width: 230px;
     height: 160px;
     left: 55px;
+    opacity: 1;
+    border: #4aaaa5 solid 2px;
 }
  
 .portfolio-item:nth-child(even){
     margin-left: 0px;
     margin-right: 30px;
-}
+   }
  
 .item-name{
     position: relative;
@@ -274,4 +277,3 @@ footer {
 ::placeholder {
     color: #cccccc;
   }
-

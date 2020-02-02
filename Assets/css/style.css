@@ -13,7 +13,7 @@ html, body{
  
 h1, h2, h3, h4, h5, h6{
 
-    color: #4aaaa5;
+    color: #4aaaa5;    
 }
  
 a{
@@ -23,6 +23,7 @@ a{
 h1{
     font-size: 2em;
     font-family: 'Special Elite', cursive;
+    font-weight: bolder;
 }
  
 h2{
@@ -39,11 +40,13 @@ header{
     height: auto;
     border-bottom: 2px solid #cccccc;
     background-color: #ffffff;
+    
 }
  
 header .container{
     width: 960px;
     margin: 0 auto;
+  
 }
  
 .name, .nav{
@@ -51,6 +54,7 @@ header .container{
     vertical-align: middle;
     margin: 0;
     padding:0;
+   
 }
  
 .name {
@@ -118,7 +122,7 @@ header .container{
     width: 960px;
     clear: both; 
     margin: 0 auto 6em auto;
-    opacity: 0.75;
+   
 }
  
 .main{
@@ -127,7 +131,8 @@ header .container{
     margin: 70px 0 0 70px;
     padding: 100px; 
     background-color: #ffffff;
-    border: 1px solid #dddddd;   
+    border: 1px solid #dddddd;  
+    opacity: 0.85; 
 }
  
 .main h2 {
@@ -136,13 +141,14 @@ header .container{
     padding-bottom: 1em;
     margin-bottom: 0.8em;
     border-bottom: 2px solid #dddddd;
+    opacity: 0.75; 
    }
  
 .main p {
     font-size: 17px;
     line-height: 1.75em;
-    margin-bottom: 2em;
-        }
+    margin-bottom: 2em;   
+  }
  
 img.about-photo {
     float: left;
@@ -162,7 +168,7 @@ img.about-photo {
     color: black;    
     font-size: 20px;
     line-height: 22px;
-    
+    opacity: 0.85; 
 }
 
 .inforoot {
@@ -172,6 +178,7 @@ img.about-photo {
     width: 802px;
     text-align: center; 
     margin: 70px 0 0 70px;
+    opacity: 0.85; 
 }
   
 /****portfolio***/
@@ -203,12 +210,11 @@ img.about-photo {
     top: -60px;
     height: 17%;
     text-align: center;
-    padding: 0px 0 0 0;
+    letter-spacing: .04em;
     background-color: rgb(34, 207, 34);
     border: 1px black solid;
     padding: 1px;
-    color: blue;
-    z-index: 900;
+    color: blue; 
 }
 
 .item-name:hover {

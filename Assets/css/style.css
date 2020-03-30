@@ -278,3 +278,17 @@ footer {
 ::placeholder {
     color: #cccccc;
   }
+
+  .git-link{
+    position: relative;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 18px;
+    font-weight: lighter;
+    top: -70px;
+    height: 14%;
+    text-align: center;
+    letter-spacing: .04em;
+    background-color: grey;
+    border-radius: 10px; 
+    padding: 1px; 
+}
